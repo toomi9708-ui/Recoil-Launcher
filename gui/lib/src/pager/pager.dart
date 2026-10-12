@@ -115,7 +115,7 @@ class _RebootPagerState extends State<RebootPager> with WindowListener, Automati
               child: Text(translations.updateAvailableAction),
               onPressed: () {
                 infoBar.close();
-                launchUrl(Uri.parse("https://github.com/Auties00/reboot_launcher/releases"));
+                launchUrl(Uri.parse("https://github.com/toomi9708-ui/Recoil-Launcher/releases"));
               },
             )
         );
